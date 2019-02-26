@@ -1,0 +1,50 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	color: rgba(0,0,0,.6);
+	line-height: 1.4;
+	padding: 36px;
+}
+
+header, main, section, div, footer {
+	padding-bottom: 14px;
+}
+
+h1 {
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+h2 {
+	font-size: 12px;
+}
+
+main {
+	background: url("paper.jpg");
+	background-size: cover;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: underline;
+	color: rgba(0,0,0,.6);
+}
+
+nav {
+	float: right;
+}
+
+div, footer {
+	text-align: center;
+}
+
+.column1of4, .column2of4, .column3of4, .column4of4 {
+	width= 220px;
+	float= left;
+	margin= 10px;
+}
