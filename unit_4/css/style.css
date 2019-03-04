@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	color: rgba(0,0,0,.6);
+	line-height: 1.5em;
+}
+
+header {
+	padding: 1.5em;
+}
+
+.logo {
+	font-family: Helvetica, sans-serif;
+	float: left;
+}
+
+nav {
+	float: right;
+}
+
+#intro {
+	font-family: 'Crimson Text', serif;
+	background: url(../images/paper.jpg);
+	background-size: cover;
+	margin-top: 1em;
+	padding: 1.5em;
+	height: 650px;
+}
+
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-size: 1.5em;
+	width: 20em;
+	line-height: 1.25em;
+	margin-bottom: 0.5em;
+}
+
+h2 {
+	font-family: Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.25em;
+}
+
+a {
+	text-decoration: none;
+	color: rgba(0,0,0,.6);
+	border-bottom: 1px solid rgba(0,0,0,.6);
+}
+
+#projects {
+	text-align: center;
+}
+
+.project-image {
+	border-bottom: none;
+}
+
+img {
+	width: 100%;
+}
+
+.column {
+	font-family: 'Crimson Text', serif;
+	text-align: left;
+	float: left;
+	width: 24%;
+	margin: 2em 0.5em;
+}
+
+.scroll-down {
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	margin-top: 485px;
+}
+
+footer {
+	text-align: center;
+}
