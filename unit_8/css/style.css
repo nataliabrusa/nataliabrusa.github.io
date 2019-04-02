@@ -11,6 +11,8 @@ body {
 	font-size: 16px;
 	line-height: 1.25em;
 	color: rgba(0,0,0,.6);
+	max-width: 1920px;
+	margin: auto;
 }
 
 header {
@@ -112,8 +114,18 @@ h2 {
 	font-size: 1em;
 }
 
+#view {
+	cursor: pointer;
+	display: inline-block;
+	padding: 1em 2em;
+}
+
 .see-more {
 	display: none;
+}
+
+.see-more.expand {
+	display: block;
 }
 
 .clearfix:after {
@@ -227,9 +239,17 @@ footer * {
 		margin-top: 18%;
 		margin-bottom: 15%;
 	}
+	#intro p {
+		padding-left: 1em;
+	}
+	#intro a {
+		padding-left: 1em;
+	}
 	h1 {
 		margin-top: 1em;
 		font-size: 1.2em;
+		padding-left: 1em;
+		max-width: 22.5em;
 	}
 	#projects {
 		margin-bottom: 15%;
@@ -238,6 +258,12 @@ footer * {
 		float: none;
 		width: auto;
 		margin-bottom: 15%;
+	}
+	.column p {
+		padding-left: 1em;
+	}
+	.column h2 {
+		padding-left: 1em;
 	}
 	#about-me > div {
 		width: 100%;
@@ -254,7 +280,7 @@ footer * {
 		clear: both;
 		float: none;
 		width: 100%;
-		padding-left: 0;
+		padding-left: 1em;
 
 	}
 	.text img {
