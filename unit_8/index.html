@@ -4,6 +4,7 @@
 	<title>Natalia Brusa</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 </head>
 
 <body>
@@ -48,7 +49,7 @@
 			tempor incididunt ut labore et dolore magna aliqua.</p>
 		</section>
 		
-		<a href="#">view more projects</a>
+		<a href="#" id="view">view more projects</a>
 		
 		<div class="see-more" class="clearfix">	
 			<section class="column">
@@ -91,5 +92,12 @@
 		<p>&copy Natalia Brusa</p>
 		<a href="mailto:nataliabrusa@yahoo.co.uk">nataliabrusa@yahoo.co.uk</a>
 	</footer>
+	<script>
+		jQuery(function($) {
+			$("#view").click(function() {
+				$(".see-more").toggleClass("expand");
+			});
+		});
+	</script>
 </body>
 </html>
